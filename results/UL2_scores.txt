@@ -1,0 +1,234 @@
+--------------------------------------
+Original Kmeans Train
+--------------------------------------
+Homogeneity: 0.143
+Completeness: 0.073
+V-measure: 0.097
+Rand Score: 0.042
+Mutual Info: 0.096
+ 
+--------------------------------------
+Original Kmeans Test
+--------------------------------------
+Homogeneity: 0.143
+Completeness: 0.073
+V-measure: 0.096
+Rand Score: 0.040
+Mutual Info: 0.095
+ 
+--------------------------------------
+Kmeans Train after PCA
+--------------------------------------
+Homogeneity: 0.143
+Completeness: 0.073
+V-measure: 0.097
+Rand Score: 0.042
+Mutual Info: 0.096
+ 
+--------------------------------------
+Kmeans Test after PCA
+--------------------------------------
+Homogeneity: 0.143
+Completeness: 0.073
+V-measure: 0.096
+Rand Score: 0.040
+Mutual Info: 0.095
+ 
+--------------------------------------
+Kmeans Train after ICA
+--------------------------------------
+Homogeneity: 0.000
+Completeness: 0.000
+V-measure: 0.000
+Rand Score: 0.005
+Mutual Info: -0.000
+ 
+--------------------------------------
+Kmeans Test after ICA
+--------------------------------------
+Homogeneity: 0.000
+Completeness: 0.001
+V-measure: 0.001
+Rand Score: -0.011
+Mutual Info: -0.001
+ 
+--------------------------------------
+Kmeans Train after RP
+--------------------------------------
+Homogeneity: 0.145
+Completeness: 0.119
+V-measure: 0.131
+Rand Score: 0.179
+Mutual Info: 0.131
+ 
+--------------------------------------
+Kmeans Test after RP
+--------------------------------------
+Homogeneity: 0.141
+Completeness: 0.115
+V-measure: 0.127
+Rand Score: 0.172
+Mutual Info: 0.126
+ 
+--------------------------------------
+Kmeans Train after LDA
+--------------------------------------
+Homogeneity: 0.270
+Completeness: 0.216
+V-measure: 0.240
+Rand Score: 0.235
+Mutual Info: 0.240
+ 
+--------------------------------------
+Kmeans Test after LDA
+--------------------------------------
+Homogeneity: 0.277
+Completeness: 0.221
+V-measure: 0.246
+Rand Score: 0.225
+Mutual Info: 0.246
+ 
+--------------------------------------
+Original EM Train
+--------------------------------------
+Homogeneity: 0.220
+Completeness: 0.058
+V-measure: 0.092
+Rand Score: 0.031
+Mutual Info: 0.091
+ 
+--------------------------------------
+Original EM Test
+--------------------------------------
+Homogeneity: 0.233
+Completeness: 0.060
+V-measure: 0.096
+Rand Score: 0.031
+Mutual Info: 0.094
+ 
+--------------------------------------
+EM Train after PCA
+--------------------------------------
+Homogeneity: 0.244
+Completeness: 0.063
+V-measure: 0.101
+Rand Score: 0.041
+Mutual Info: 0.100
+ 
+--------------------------------------
+EM Test after PCA
+--------------------------------------
+Homogeneity: 0.248
+Completeness: 0.064
+V-measure: 0.102
+Rand Score: 0.041
+Mutual Info: 0.100
+ 
+--------------------------------------
+EM Train after ICA
+--------------------------------------
+Homogeneity: 0.004
+Completeness: 0.004
+V-measure: 0.004
+Rand Score: -0.026
+Mutual Info: 0.004
+ 
+--------------------------------------
+EM Test after ICA
+--------------------------------------
+Homogeneity: 0.002
+Completeness: 0.002
+V-measure: 0.002
+Rand Score: -0.019
+Mutual Info: 0.001
+ 
+--------------------------------------
+EM Train after RP
+--------------------------------------
+Homogeneity: 0.173
+Completeness: 0.094
+V-measure: 0.122
+Rand Score: 0.141
+Mutual Info: 0.121
+ 
+--------------------------------------
+EM Test after RP
+--------------------------------------
+Homogeneity: 0.160
+Completeness: 0.088
+V-measure: 0.113
+Rand Score: 0.134
+Mutual Info: 0.113
+ 
+--------------------------------------
+EM Train after LDA
+--------------------------------------
+Homogeneity: 0.193
+Completeness: 0.163
+V-measure: 0.177
+Rand Score: 0.013
+Mutual Info: 0.177
+ 
+--------------------------------------
+EM Test after LDA
+--------------------------------------
+Homogeneity: 0.180
+Completeness: 0.153
+V-measure: 0.165
+Rand Score: 0.004
+Mutual Info: 0.165
+ 
+______________________________________________
+Classifier: Original NN
+Accuracy: 0.8386308068459658
+______________________________________________
+
+Original NN 0.0006489753723144531
+______________________________________________
+Classifier: NN with PCA
+Accuracy: 0.8349633251833741
+______________________________________________
+
+NN with PCA 0.0007710456848144531
+______________________________________________
+Classifier: NN with ICA
+Accuracy: 0.8429095354523227
+______________________________________________
+
+NN with ICA 0.0007350444793701172
+______________________________________________
+Classifier: NN with RP
+Accuracy: 0.8294621026894865
+______________________________________________
+
+NN with RP 0.0006721019744873047
+______________________________________________
+Classifier: NN with LDA
+Accuracy: 0.8410757946210269
+______________________________________________
+
+NN with LDA 0.00040030479431152344
+______________________________________________
+Classifier: NN with PCA clustering
+Accuracy: 0.8221271393643031
+______________________________________________
+
+NN with PCA clustering 0.0004949569702148438
+______________________________________________
+Classifier: NN with ICA clustering
+Accuracy: 0.843520782396088
+______________________________________________
+
+NN with ICA clustering 0.0008690357208251953
+______________________________________________
+Classifier: NN with RP clustering
+Accuracy: 0.8355745721271394
+______________________________________________
+
+NN with RP clustering 0.0008261203765869141
+______________________________________________
+Classifier: NN with LDA clustering
+Accuracy: 0.8325183374083129
+______________________________________________
+
+NN with LDA clustering 0.00038504600524902344

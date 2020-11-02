@@ -1,0 +1,179 @@
+--------------------------------------
+Original Kmeans Train
+--------------------------------------
+Homogeneity: 0.044
+Completeness: 0.042
+V-measure: 0.043
+Rand Score: 0.078
+Mutual Info: 0.043
+ 
+--------------------------------------
+Original Kmeans Test
+--------------------------------------
+Homogeneity: 0.030
+Completeness: 0.029
+V-measure: 0.029
+Rand Score: 0.060
+Mutual Info: 0.029
+ 
+--------------------------------------
+Kmeans Train after PCA
+--------------------------------------
+Homogeneity: 0.044
+Completeness: 0.041
+V-measure: 0.043
+Rand Score: 0.077
+Mutual Info: 0.042
+ 
+--------------------------------------
+Kmeans Test after PCA
+--------------------------------------
+Homogeneity: 0.030
+Completeness: 0.028
+V-measure: 0.029
+Rand Score: 0.058
+Mutual Info: 0.028
+ 
+--------------------------------------
+Kmeans Train after ICA
+--------------------------------------
+Homogeneity: 0.092
+Completeness: 0.087
+V-measure: 0.089
+Rand Score: 0.059
+Mutual Info: 0.089
+ 
+--------------------------------------
+Kmeans Test after ICA
+--------------------------------------
+Homogeneity: 0.096
+Completeness: 0.089
+V-measure: 0.092
+Rand Score: 0.063
+Mutual Info: 0.092
+ 
+--------------------------------------
+Kmeans Train after RP
+--------------------------------------
+Homogeneity: 0.055
+Completeness: 0.052
+V-measure: 0.053
+Rand Score: 0.087
+Mutual Info: 0.053
+ 
+--------------------------------------
+Kmeans Test after RP
+--------------------------------------
+Homogeneity: 0.052
+Completeness: 0.047
+V-measure: 0.050
+Rand Score: 0.068
+Mutual Info: 0.049
+ 
+--------------------------------------
+Kmeans Train after LDA
+--------------------------------------
+Homogeneity: 0.142
+Completeness: 0.131
+V-measure: 0.137
+Rand Score: 0.151
+Mutual Info: 0.136
+ 
+--------------------------------------
+Kmeans Test after LDA
+--------------------------------------
+Homogeneity: 0.148
+Completeness: 0.135
+V-measure: 0.141
+Rand Score: 0.150
+Mutual Info: 0.141
+ 
+--------------------------------------
+Original EM Train
+--------------------------------------
+Homogeneity: 0.032
+Completeness: 0.059
+V-measure: 0.042
+Rand Score: 0.083
+Mutual Info: 0.041
+ 
+--------------------------------------
+Original EM Test
+--------------------------------------
+Homogeneity: 0.034
+Completeness: 0.068
+V-measure: 0.045
+Rand Score: 0.087
+Mutual Info: 0.044
+ 
+--------------------------------------
+EM Train after PCA
+--------------------------------------
+Homogeneity: 0.048
+Completeness: 0.070
+V-measure: 0.057
+Rand Score: 0.115
+Mutual Info: 0.057
+ 
+--------------------------------------
+EM Test after PCA
+--------------------------------------
+Homogeneity: 0.055
+Completeness: 0.083
+V-measure: 0.066
+Rand Score: 0.129
+Mutual Info: 0.065
+ 
+--------------------------------------
+EM Train after ICA
+--------------------------------------
+Homogeneity: 0.048
+Completeness: 0.070
+V-measure: 0.057
+Rand Score: 0.115
+Mutual Info: 0.057
+ 
+--------------------------------------
+EM Test after ICA
+--------------------------------------
+Homogeneity: 0.057
+Completeness: 0.087
+V-measure: 0.069
+Rand Score: 0.133
+Mutual Info: 0.068
+ 
+--------------------------------------
+EM Train after RP
+--------------------------------------
+Homogeneity: 0.024
+Completeness: 0.046
+V-measure: 0.032
+Rand Score: 0.070
+Mutual Info: 0.032
+ 
+--------------------------------------
+EM Test after RP
+--------------------------------------
+Homogeneity: 0.028
+Completeness: 0.054
+V-measure: 0.037
+Rand Score: 0.079
+Mutual Info: 0.036
+ 
+--------------------------------------
+EM Train after LDA
+--------------------------------------
+Homogeneity: 0.139
+Completeness: 0.129
+V-measure: 0.134
+Rand Score: 0.127
+Mutual Info: 0.133
+ 
+--------------------------------------
+EM Test after LDA
+--------------------------------------
+Homogeneity: 0.130
+Completeness: 0.119
+V-measure: 0.124
+Rand Score: 0.110
+Mutual Info: 0.123
